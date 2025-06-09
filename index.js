@@ -27,7 +27,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 // Routers
 app.use('/api/accounts', require('./routes/account'));
 app.use('/api/theatm', require('./routes/theatm'));
-// app.use('/api/users', require('./routes/users'));
+app.use('/api/nhanvien', require('./routes/nhanvien'));
 // app.use('/api/contents', require('./routes/contents'));
 // app.use('/api/news', require('./routes/news'));
 // app.use('/api/categories', require('./routes/categories'));
